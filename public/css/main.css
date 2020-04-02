@@ -1,0 +1,39 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  margin: 0 auto;
+  background-color: #a18250; }
+
+p {
+  font: 19px Arial; }
+
+h2 {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #fa9c03;
+  margin-bottom: 10px;
+  letter-spacing: 2px; }
+
+#video1 h2, #video2 h2 {
+  margin-bottom: 30px;
+  text-align: center; }
+
+#audio {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px; }
+
+@media only screen and (min-width: 800px) {
+  #videoWraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; } }
+
+/*# sourceMappingURL=main.css.map */
