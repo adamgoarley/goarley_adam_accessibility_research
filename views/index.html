@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Media Controls</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 	<script src="#"></script>
 </head>
 
@@ -13,18 +14,24 @@
 
 	<div id="audio">
 		<h2>Pirates of the caribbean theme song</h2>
-		<audio src="../public/audio/pirates_of_the_caribbean_theme.mp3" controls></audio>
+		<audio controls>
+			<source src="../public/audio/pirates_of_the_caribbean_theme.mp3" type="audio/mp3">
+		</audio>
+		
 	</div>
 
-
-	<div id="video1">
-		<h2>1917 Official Trailer</h2>
-		<video src="../public/video/1917official_trailer.mp4" controls></video>
-	</div>
-
-	<div id="video2">
-		<h2>Midway Official Trailer</h2>
-		<video src="../public/video/midway_offical_trailer.mp4" controls></video>
+	<div id="videoWraper">
+		<div id="video1">
+			<h2>1917 Official Trailer</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/gZjQROMAh_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</div>
+	
+		<div id="video2">
+			<h2>Midway Official Trailer</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/BfTYY_pac8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</div>
 	</div>
 
 	<script></script>

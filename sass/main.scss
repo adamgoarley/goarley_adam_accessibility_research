@@ -8,15 +8,42 @@ html, body
 	height: 100%; 
 }
 
+body{
+	margin: 0 auto;
+	background-color: rgb(161, 130, 80);
+}
+
 p
 { 
 	font: 19px Arial; 
 }
 
-h1
+h2
 {
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
 	color:#fa9c03;
 	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+#videoWraper
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#video1 h2, #video2 h2
+{
+	margin-bottom: 30px;
+	text-align: center;
+	
+}
+
+#audio
+{
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 50px;
 }
