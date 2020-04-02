@@ -1,0 +1,22 @@
+/* reset */
+* {
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+html, body 
+{ 
+	height: 100%; 
+}
+
+p
+{ 
+	font: 19px Arial; 
+}
+
+h1
+{
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	color:#fa9c03;
+	margin-bottom: 10px;
+}
