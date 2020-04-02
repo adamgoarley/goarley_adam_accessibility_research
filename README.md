@@ -1,1 +1,2 @@
-# goarley_adam_accessibility_research
+# Accessibility Research Assignment 
+## Designed and Developed by Adam Goarley
