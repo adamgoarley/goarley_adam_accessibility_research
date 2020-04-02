@@ -21,11 +21,6 @@ h2 {
   margin-bottom: 10px;
   letter-spacing: 2px; }
 
-#videoWraper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
 #video1 h2, #video2 h2 {
   margin-bottom: 30px;
   text-align: center; }
@@ -34,5 +29,11 @@ h2 {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 50px; }
+
+@media only screen and (min-width: 800px) {
+  #videoWraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; } }
 
 /*# sourceMappingURL=main.css.map */
